@@ -1,0 +1,17 @@
+Elderly Man with Chest Pain (Outpatient Cardiology)
+
+Doctor: “Good afternoon, sir. May I confirm your details?”
+Patient: “Yes, I’m George Williams, born 10th November 1950.”
+Doctor: “What brings you here today?”
+Patient: “I’ve had chest pain on and off for the past month, usually when walking uphill. It goes away when I rest.”
+Doctor: “Does it radiate anywhere?”
+Patient: “Yes, sometimes to my left arm.”
+Doctor: “Any shortness of breath, palpitations, or dizziness?”
+Patient: “Short of breath sometimes, no palpitations or dizziness.”
+Doctor: “Any past medical history?”
+Patient: “High blood pressure and type 2 diabetes. I take ramipril and metformin.”
+Doctor: “Do you smoke?”
+Patient: “I quit 10 years ago, but smoked for 30 years before that.”
+Doctor: “Thank you. On examination, blood pressure is high and ECG shows some ST changes.”
+Doctor: “Treatment plan: start aspirin 75 mg daily and a statin. Increase blood pressure control. Order echocardiogram, fasting lipid profile, and schedule a treadmill stress test. If findings are concerning, we’ll arrange coronary angiography.”
+Doctor: “Follow-up in cardiology clinic in 4 weeks.”

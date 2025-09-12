@@ -1,0 +1,15 @@
+Middle-aged Woman with Abdominal Pain (Emergency Department)
+
+Doctor: “Hello, I’m Dr. Patel. Could you tell me your name and date of birth?”
+Patient: “I’m Maria Fernandez, born on 2nd March 1980.”
+Doctor: “What brings you to the emergency department today?”
+Patient: “I’ve had sharp pain in my lower right abdomen since yesterday evening, and it’s getting worse. I also feel nauseous.”
+Doctor: “Any fever, vomiting, or diarrhoea?”
+Patient: “Yes, I vomited twice this morning. No diarrhoea.”
+Doctor: “Any past medical history or medications?”
+Patient: “No major problems. I just take iron tablets for anaemia.”
+Doctor: “Any allergies?”
+Patient: “None.”
+Doctor: “On examination, you have tenderness in the right lower quadrant and mild guarding.”
+Doctor: “Treatment plan: admit for suspected acute appendicitis. Order urgent blood tests (FBC, CRP, electrolytes) and abdominal ultrasound. Keep patient nil by mouth, start IV fluids and IV antibiotics (ceftriaxone + metronidazole).”
+Doctor: “We’ll consult surgery for possible appendectomy today.”

@@ -1,0 +1,22 @@
+Patient Profile
+	• 50+ year old lady
+	• Found a lump 2-3 weeks ago
+	• Family history of breast cancer (mother and sister had breast cancer)
+Key Points
+	• No couch in the room (indicator that it's not a physical examination scenario)
+	• Findings will be given on paper after mentioning examination
+
+Approach
+Doctor: "Hello, I'm Dr. [Your Name]. How can I help you today?"
+Patient: "I found a lump in my breast about two or three weeks ago."
+Doctor: "I see. Can you tell me more about how you discovered this lump?"
+Patient: [Provides details]
+Doctor: "I understand this must be concerning for you. Do you have any family history of breast cancer?"
+Patient: "Yes, my mother and sister both had breast cancer."
+[Continue with detailed history taking using MES approach]
+Doctor: "I'd like to examine your breast now. Is that okay with you?"
+Patient: "Yes, that's fine."
+[Examiner provides findings on paper]
+
+Management
+Doctor: "Based on the examination and your family history, I think it's important we refer you to a breast clinic for further assessment. They will likely perform a mammogram, ultrasound, and possibly a biopsy. If a cancer is confirmed, treatment options may include surgery, chemotherapy, and radiotherapy. Do you have any questions about this?”

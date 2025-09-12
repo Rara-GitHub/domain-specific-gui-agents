@@ -1,0 +1,29 @@
+Patient Profile
+	• Recently gave birth
+	• Presenting with breast pain and fever
+Key Points
+	• Similar symptoms to engorgement but with fever
+	• Requires antibiotics
+	• Mannequin present for examination
+
+Approach
+[Similar initial questions to Scenario 6]
+Doctor: "Have you noticed any fever or chills?"
+Patient: "Yes, I've been running a fever for the past day or so."
+Doctor: "Have you noticed any redness or a warm area on your breast?"
+Patient: "Yes, there's a red, sore area on my [left/right] breast."
+Examination
+Doctor: "I need to examine your breast now. Is that alright?"
+Patient: "Yes, go ahead."
+
+[Perform examination on mannequin]
+Doctor: "Thank you. I can feel a tender, firm area in your breast, which is consistent with mastitis."
+Management
+Doctor: "Based on your symptoms and the examination, you have a condition called mastitis. This is an infection in the breast tissue. Here's how we'll treat it:
+	1. I'll prescribe an antibiotic called flucloxacillin. It's safe to take while breastfeeding. Take it for the full course, even if you start feeling better.
+	2. For pain relief, you can take paracetamol. Avoid aspirin as it's not recommended while breastfeeding.
+	3. Continue to empty the breast by feeding or expressing milk. This is important for your recovery.
+	4. Use warm compresses before feeding and cold compresses after to help with discomfort.
+	5. Rest as much as possible and stay well-hydrated.
+	6. If possible, start feeds on the affected breast to ensure it's emptied effectively.
+If your symptoms don't improve after a couple of days on the antibiotics, or if they get worse, please come back to see us immediately."

@@ -1,0 +1,13 @@
+Paediatric Asthma Exacerbation (Clinic Visit)
+
+Doctor: “Good morning, could you please tell me your child’s name?”
+Parent: “Yes, this is Daniel Carter, he’s 7 years old.”
+Doctor: “Hello Daniel. What brings you both in today?”
+Parent: “He’s been wheezing and coughing, especially at night, for the past week. We’ve been using his inhaler more often than usual.”
+Doctor: “Any fever, chest pain, or trouble breathing during the day?”
+Parent: “No fever, but he did complain of chest tightness during football practice yesterday.”
+Doctor: “Understood. Does Daniel have any allergies?”
+Parent: “Yes, he’s allergic to dust mites.”
+Doctor: “Thank you. I’ll examine him now. His oxygen levels are a little low, and I can hear wheezing on both sides.”
+Doctor: “Treatment plan: start a short course of oral prednisolone for 5 days, continue salbutamol inhaler every 4 hours as needed. We’ll also arrange peak flow monitoring.”
+Doctor: “I’d also like a chest X-ray to rule out pneumonia, and we’ll schedule a follow-up appointment in 2 weeks.”

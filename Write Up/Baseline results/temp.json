@@ -1,0 +1,50 @@
+{
+  "case_id": "CASE_NAME_HERE",
+  "instruction": "Full task prompt here.",
+  "steps": [
+    {
+      "thought": "Reasoning step 1 text...",
+      "actions": [
+        {
+          "type": "ACTION_TYPE",
+          "path": "PATH_OR_TARGET",
+          "args": { "optional": "extra parameters" }
+        }
+      ],
+      "results": [
+        {
+          "dirs": ["list", "of", "directories"],
+          "files": ["list", "of", "files"],
+          "status": "optional status/result text"
+        }
+      ]
+    },
+    {
+      "thought": "Reasoning step 2 text...",
+      "actions": [
+        {
+          "type": "ACTION_TYPE",
+          "path": "PATH_OR_TARGET"
+        },
+        {
+          "type": "ACTION_TYPE",
+          "path": "ANOTHER_PATH"
+        }
+      ],
+      "results": [
+        { "dirs": [], "files": ["something.txt"] },
+        { "dirs": [], "files": [] }
+      ]
+    }
+  ],
+  "totals": {
+    "thoughts": 0,
+    "actions": 0
+  },
+  "final_status": {
+    "status": "error",
+    "source": "AgentRunner",
+    "code": 400,
+    "message": "messages: text content blocks must be non-empty"
+  }
+}

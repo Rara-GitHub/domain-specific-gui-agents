@@ -1,0 +1,165 @@
+{
+  "case_id": "scenario_001+002",
+  "sessions": [
+    {
+      "instruction_id": 1,
+      "instruction": "Simulate a Hospital Information Management System (HIMS) inside the local workspace. Extract structured information from a medical dialogue and update /HIMS (Patients, Appointments, Imaging) with patient-specific files (demographics.txt, symptoms.txt, treatment_plan.txt) and logs.",
+      "steps": [
+        {
+          "thought": "Check if the HIMS folder exists and inspect workspace contents.",
+          "actions": [
+            { "type": "list_files", "path": "/Users/rara/UI-TARS/agent-tars-workspace" }
+          ],
+          "results": [
+            { "dirs": ["HIMS"], "files": [".DS_Store", "S1 Nursing Home Scenario - Elderly Patient with Confusion (No Infection).txt", "S2 Obstructive Sleep Apnea.txt", "S3 Suspected Breast Cancer (No Mannequin).txt", "S4 Mastitis (with mannequin).txt", "S5 Basal Cell Carcinoma.txt", "poem.html"] }
+          ]
+        },
+        {
+          "thought": "Inspect the current HIMS tree to see what exists.",
+          "actions": [
+            { "type": "directory_tree", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS" }
+          ],
+          "results": [
+            { "name": "HIMS", "type": "directory", "children": [ { "name": "Appointments", "type": "directory", "children": [] }, { "name": "Imaging", "type": "directory", "children": [] }, { "name": "Patients", "type": "directory", "children": [ { "name": "P001_ElizabethJohnson", "type": "directory", "children": [ { "name": "demographics.txt", "type": "file" } ] } ] } ] }
+          ]
+        },
+        {
+          "thought": "Open the first dialogue (S1) to extract structured information.",
+          "actions": [
+            { "type": "read_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/S1 Nursing Home Scenario - Elderly Patient with Confusion (No Infection).txt" }
+          ],
+          "results": [
+            { "excerpt": "Patient: Mrs. Elizabeth Johnson, 80, confusion after fall; Plan: CT head; possible surgery; refer to social services." }
+          ]
+        },
+        {
+          "thought": "Verify existing demographics for P001_ElizabethJohnson.",
+          "actions": [
+            { "type": "read_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P001_ElizabethJohnson/demographics.txt" }
+          ],
+          "results": [
+            { "content_head": "Patient Demographics | Patient ID: P001 | Name: Elizabeth Johnson | DOB: 15 May 1943" }
+          ]
+        },
+        {
+          "thought": "Create or update symptoms log based on extracted dialogue.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P001_ElizabethJohnson/symptoms.txt" }
+          ],
+          "results": [
+            { "message": "Wrote symptoms entry for 2025-01-04 (confusion, disorientation, headache; GCS 13/15)." }
+          ]
+        },
+        {
+          "thought": "Create or update treatment plan file for P001.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P001_ElizabethJohnson/treatment_plan.txt" }
+          ],
+          "results": [
+            { "message": "Wrote plan including CT head order, monitoring, possible surgery, social services referral." }
+          ]
+        },
+        {
+          "thought": "Update imaging plan to include CT head order.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Imaging/imaging_plan.txt" }
+          ],
+          "results": [
+            { "message": "Logged CT Head (non-contrast), urgent priority, indication: suspected chronic subdural hematoma." }
+          ]
+        },
+        {
+          "thought": "Record the ED visit in appointments log.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Appointments/appointments.txt" }
+          ],
+          "results": [
+            { "message": "Added appointment for P001 (ED visit, Dr. Smith, active/in progress)." }
+          ]
+        },
+        {
+          "thought": "Verify completed HIMS structure after updates.",
+          "actions": [
+            { "type": "directory_tree", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS" }
+          ],
+          "results": [
+            { "name": "HIMS", "type": "directory", "children": [ { "name": "Appointments", "type": "directory", "children": [ { "name": "appointments.txt", "type": "file" } ] }, { "name": "Imaging", "type": "directory", "children": [ { "name": "imaging_plan.txt", "type": "file" } ] }, { "name": "Patients", "type": "directory", "children": [ { "name": "P001_ElizabethJohnson", "type": "directory", "children": [ { "name": "demographics.txt", "type": "file" }, { "name": "symptoms.txt", "type": "file" }, { "name": "treatment_plan.txt", "type": "file" } ] } ] } ] }
+          ]
+        },
+        {
+          "thought": "Summarise the updates for auditability (no new action required).",
+          "actions": [],
+          "results": [
+            { "summary": "HIMS updated for Elizabeth Johnson: demographics verified; symptoms and plan written; imaging and appointments logged." }
+          ]
+        }
+      ],
+      "totals": { "thoughts": 10, "actions": 9 },
+      "final_status": { "status": "success" }
+    },
+    {
+      "instruction_id": 2,
+      "instruction": "Continue with the second case: process 'S2 Obstructive Sleep Apnea.txt' and update HIMS accordingly (create new patient if needed; add demographics, symptoms, treatment plan; update appointments).",
+      "steps": [
+        {
+          "thought": "Read the S2 Obstructive Sleep Apnea file to extract structured information.",
+          "actions": [
+            { "type": "read_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/S2 Obstructive Sleep Apnea.txt" }
+          ],
+          "results": [
+            { "excerpt": "Male 40–45, snoring; suspected OSA; plan: urgent sleep clinic referral; sleep study; CPAP if confirmed; lifestyle advice." }
+          ]
+        },
+        {
+          "thought": "Create a new patient folder for Robert Johnson (P002).",
+          "actions": [
+            { "type": "create_directory", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P002_RobertJohnson" }
+          ],
+          "results": [
+            { "message": "Successfully created directory /Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P002_RobertJohnson" }
+          ]
+        },
+        {
+          "thought": "Create demographics and initial symptoms records.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P002_RobertJohnson/demographics.txt" },
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P002_RobertJohnson/symptoms.txt" }
+          ],
+          "results": [
+            { "content_head": "Patient Demographics | Patient ID: P002 | Name: Robert Johnson | Age: 40–45 | BMI: obese (pending)" },
+            { "message": "Wrote symptoms: snoring, sleeping problems, possible daytime tiredness; to assess witnessed apneas, Epworth score, BMI." }
+          ]
+        },
+        {
+          "thought": "Create treatment plan including urgent referral and lifestyle advice.",
+          "actions": [
+            { "type": "write_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Patients/P002_RobertJohnson/treatment_plan.txt" }
+          ],
+          "results": [
+            { "message": "Logged urgent sleep clinic referral (4–6 weeks), sleep study, potential CPAP, lifestyle changes, driving precautions." }
+          ]
+        },
+        {
+          "thought": "Append the GP visit and referral to the appointments log.",
+          "actions": [
+            { "type": "edit_file", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS/Appointments/appointments.txt" }
+          ],
+          "results": [
+            { "message": "Added GP consultation for P002; status: referred to sleep specialist; follow-up pending sleep study." }
+          ]
+        },
+        {
+          "thought": "Verify HIMS state and summarise updates.",
+          "actions": [
+            { "type": "directory_tree", "path": "/Users/rara/UI-TARS/agent-tars-workspace/HIMS" }
+          ],
+          "results": [
+            { "name": "HIMS", "type": "directory", "children": [ { "name": "Appointments", "type": "directory" }, { "name": "Imaging", "type": "directory" }, { "name": "Patients", "type": "directory", "children": [ { "name": "P002_RobertJohnson", "type": "directory", "children": [ { "name": "demographics.txt", "type": "file" }, { "name": "symptoms.txt", "type": "file" }, { "name": "treatment_plan.txt", "type": "file" } ] } ] } ] }
+          ]
+        }
+      ],
+      "totals": { "thoughts": 6, "actions": 7 },
+      "final_status": { "status": "success" }
+    }
+  ]
+}

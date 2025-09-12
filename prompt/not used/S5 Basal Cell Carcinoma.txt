@@ -1,0 +1,48 @@
+
+Typical Presentation
+Patient: "My wife noticed this growth on the back of my head. Sometimes it bleeds when I
+brush my hair, so she insisted I get it checked."
+Doctor: "I'm glad you've come in. Let's go through some questions to understand more
+about this growth."
+Comprehensive History Taking
+1. Duration and evolution: Doctor: "How long have you had this growth on your
+head?" Patient: "I'm not sure exactly. My wife noticed it a few months ago, but it
+could have been there longer." Doctor: "Have you noticed any changes in its size or
+appearance since you first became aware of it?" Patient: "It seems to be slowly getting
+bigger, I think."
+2. Symptoms: Doctor: "You mentioned it bleeds sometimes. How often does this
+happen?" Patient: "Maybe once or twice a week when I'm brushing my hair." Doctor:
+"Is there any pain or discomfort associated with it?" Patient: "No pain really, just the
+occasional bleeding."
+3. Risk factors: Doctor: "Have you spent a lot of time in the sun over the years?
+Perhaps for work or leisure?" Patient: "Actually, yes. I worked in Dubai for about 10
+years. I was often outdoors in the sun."
+4. Previous treatments: Doctor: "Have you ever had any treatments for skin growths
+before?" Patient: "Now that you mention it, I had something frozen off my forehead
+last year. The doctor called it a... what was it... basal cell something?"
+Physical Examination
+Doctor: "I'd like to examine the growth now if that's alright."
+Patient: "Of course, go ahead."
+Doctor: "Thank you. What I can see is a raised, pearly growth on the back of your head. It
+has a slightly shiny appearance and there's a small area that looks like it might bleed easily."
+Diagnosis Delivery
+Doctor: "Based on what you've told me and my examination, I believe this growth is what
+we call a basal cell carcinoma."
+Patient: "Carcinoma? Does that mean it's cancer?"
+Doctor: "Yes, basal cell carcinoma is a type of skin cancer. However, I want to reassure you
+that it's a very treatable form of skin cancer. It grows slowly and very rarely spreads to other
+parts of the body."
+Patient: "Oh, I see. Is it because of my time in Dubai?"
+Doctor: "Sun exposure is indeed a major risk factor for this type of skin cancer, so your
+time working outdoors in Dubai likely contributed to its development."
+Management Plan
+Doctor: "I'm going to refer you to a dermatologist for treatment. Given the location of the
+growth, this will be a routine referral rather than an urgent one."
+Patient: "What will the treatment involve?"
+Doctor: "The dermatologist will likely recommend either surgical removal of the growth or
+freezing therapy, similar to what you had on your forehead. They'll do a biopsy to confirm
+the diagnosis and then proceed with treatment."
+Patient: "Will I need to take time off work?"
+Doctor: "The procedure is usually done as an outpatient, so you shouldn't need much time
+off. However, you might want to take a day or two to recover, especially if they opt for
+surgical removal."
