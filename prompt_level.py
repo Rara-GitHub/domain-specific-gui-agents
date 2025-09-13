@@ -176,7 +176,7 @@ def clear_optimization_history():
 
 
 # Set Gradio interface
-with gr.Blocks(title="Prompt优化智能助手", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Prompt Optimization Assistant", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 🚀 Professional Prompt Optimizer")
 
     # Scene selection
