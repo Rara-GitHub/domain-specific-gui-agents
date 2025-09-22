@@ -2,7 +2,7 @@ import gradio as gr
 import anthropic
 
 # Initialise Claude client
-api_key = "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"
+api_key ="your_api_key_here"
 model_name = "claude-opus-4-1-20250805"
 
 client = anthropic.Anthropic(api_key=api_key)
